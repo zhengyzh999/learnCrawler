@@ -9,5 +9,6 @@ public class ParseUtil {
 
     public static void parseXml(String path){
 
+        int a = 10;
     }
 }
