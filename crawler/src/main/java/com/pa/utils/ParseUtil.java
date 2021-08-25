@@ -8,7 +8,6 @@ package com.pa.utils;
 public class ParseUtil {
 
     public static String parseXml(String path) {
-        //我是注释
         int a = 20;
         String b = "new String";
         path = "www.www.www";
@@ -16,7 +15,8 @@ public class ParseUtil {
         for (int i = 0; i < b.length(); i++) {
             st.append(b.length() - i - 1);
         }
-        System.out.println("我是测试");
+        //System.out.println("我是测试")
+        System.err.println("红色测试");
         return path + st.toString();
     }
 }
